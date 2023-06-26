@@ -1,0 +1,9 @@
+.games {
+  margin: 0;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  background-color: #212529;
+  list-style: none;
+}

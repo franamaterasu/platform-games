@@ -1,0 +1,39 @@
+.card {
+  background-color: transparent;
+
+  &-body {
+    padding: 0;
+  }
+
+  &-img-top {
+    border-radius: 5px;
+  }
+
+  &-title,
+  &-text {
+    font-family: "Poppins", sans-serif;
+    color: #f0f0f0;
+  }
+
+  &-title {
+    font-weight: 600;
+    margin: 25px 0 10px;
+  }
+
+  &-text {
+    font-weight: 100;
+  }
+
+  &-button {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(224, 50, 50);
+    color: #f0f0f0;
+    font-weight: 100;
+    font-size: 15px;
+
+    &:hover {
+      color: #f0f0f0;
+      background-color: darken(rgb(224, 50, 50), 10%);
+    }
+  }
+}

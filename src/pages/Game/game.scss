@@ -1,0 +1,39 @@
+.game {
+  background-color: #212529;
+  padding: 50px 100px;
+
+  &__banner {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    line-height: 30px;
+  }
+
+  &__link {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(224, 50, 50);
+    color: #f0f0f0;
+    font-weight: 100;
+    font-size: 15px;
+
+    &:hover {
+      color: #f0f0f0;
+      background-color: darken(rgb(224, 50, 50), 10%);
+    }
+  }
+}
